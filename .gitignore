@@ -3,11 +3,12 @@
 */venv/
 
 # Dont track keys
-*/keys/
+module-01/terraform/keys/
 
 # Local .terraform directories
 **/.terraform/*
 
+**/.terraform.lock.hcl
 # .tfstate files
 *.tfstate
 *.tfstate.*
